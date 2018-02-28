@@ -1,0 +1,32 @@
+{
+    "workbench.colorTheme": "Nord",
+    "workbench.activityBar.visible": false,
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 13,
+    "editor.tabSize": 2,
+    "editor.lineHeight": 24,
+    "terminal.integrated.lineHeight": 1.4,
+    // "window.zoomLevel": 1,
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    // 句末不需要分号
+    "prettier.semi": false,
+    // 使用单引号，而非双引号
+    "prettier.singleQuote": true,
+    "window.zoomLevel": 0,
+    // 暂时不要开启，防止对 postloan-admin-web 项目的大幅度修改
+    // "editor.formatOnSave": true
+
+    // 控制键入时是否应自动显示建议
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+
+    "bracketPairColorizer.forceUniqueOpeningColor": true,
+    "bracketPairColorizer.forceIterationColorCycle": true,
+    "bracketPairColorizer.highlightActiveScope": true,
+    "editor.matchBrackets": false,
+}

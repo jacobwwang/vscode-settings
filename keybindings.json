@@ -1,0 +1,42 @@
+// 将键绑定放入此文件中以覆盖默认值
+[
+  // 跳转到到函数或者重要变量名
+  // 执行 gotoSymbol 操作。在代码中，敲 ctrl-s 就可以搜索并跳转了。
+  {
+    "key": "ctrl-s",
+    "command": "workbench.action.gotoSymbol"
+  },
+  // 创建新文件
+  {
+    "key": "alt+cmd+o",
+    "command": "extension.advancedNewFile"
+  },
+  // Cmd-h 打开和关闭终端窗口，关闭窗口后里面的命令行会照常运行，再次打开后依然可见
+  {
+    "key": "cmd+h",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  // Cmd-t 新建终端，一个终端窗口中，可以创建多个终端
+  {
+    "key": "cmd+t",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalFocus"
+  },
+  // Cmd-right/left 可以在终端间切换
+  {
+    "key": "cmd+right",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+left",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  },
+  // Cmd-w 不想要的终端，用 cmd-w 来关闭
+  {
+    "key": "cmd+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  }
+]
