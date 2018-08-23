@@ -33,4 +33,9 @@
   "python.formatting.autopep8Args": [
     "--max-line-length=140"
   ],
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.historyExplorer.enabled": true,
+  "extensions.ignoreRecommendations": false,
 }
