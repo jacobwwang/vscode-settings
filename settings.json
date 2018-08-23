@@ -39,4 +39,11 @@
   },
   "gitlens.historyExplorer.enabled": true,
   "extensions.ignoreRecommendations": false,
+  // 在一定数量的等宽字符后显示垂直标尺。输入多个值，显示多个标尺。若数组为空，则不绘制标尺。
+  "editor.rulers": [80, 180],
+  "prettier.printWidth": 180,
+  "editor.formatOnSave": true,
+  // "[javascript]": {
+  //   "editor.formatOnSave": true
+  // },
 }
