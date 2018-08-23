@@ -38,5 +38,18 @@
     "key": "cmd+w",
     "command": "workbench.action.terminal.kill",
     "when": "terminalFocus"
+  },
+  // 切换选中文字为大写
+  {
+    "key": "cmd+alt+shift+u",
+    "command": "editor.action.transformToUppercase",
+    "when": "editorTextFocus"
+  },
+  // 切换选中文字为小写
+  // cmd+shift+l 与 insertCursorAtEndOfEachLineSelected 冲突
+  {
+    "key": "cmd+alt+shift+l",
+    "command": "editor.action.transformToLowercase",
+    "when": "editorTextFocus"
   }
 ]
