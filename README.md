@@ -17,5 +17,10 @@ patbenatar.advanced-new-file
 sleistner.vscode-fileutils
 tomoki1207.vscode-input-sequence
 xabikos.JavaScriptSnippets
+Tyriar.sort-lines
+eamodio.gitlens
+HookyQR.beautify
+ms-python.python
+VisualStudioExptTeam.vscodeintellicode
 ```
 
