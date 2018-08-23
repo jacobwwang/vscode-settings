@@ -3,6 +3,6 @@
 	// See https://go.microsoft.com/fwlink/?LinkId=761051 for a list of supported languages.
 	// Changing the value requires restarting VSCode.
 	// "locale":"en"
-	// "locale":"en-US"
-	"locale":"zh-CN"
+	"locale":"en-US"
+	// "locale":"zh-CN"
 }
